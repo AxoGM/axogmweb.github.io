@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project</title>
+    <link rel="icon" type="image/x-icon" href="./icon.png">
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+    <!--nav-->
+    <section class="hero">
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="./information.html">ABOUT</a>
+                </li>
+            </ul>
+            <!-- dark mode and light mode -->
+            <img src="img/moon.png" id="icon">
+        </nav>
+        <!--Main-->
+        <div class="box-input">
+            <h1>Project</h1>
+            <div class="row">
+                <nav class="nav-row">
+                    <ul class="ul-row">
+                        <li class="li-col">
+                            <a href="#website">Website</a>
+                        </li>
+                        <li class="li-col">
+                            <a href="#3dmodel">3D Model</a>
+                        </li>
+                        <li class="li-col">
+                            <a href="#game">Game</a>
+                        </li>
+                        <li class="li-col">
+                            <a href="#other">Other</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <!--Website-->
+    <section class="hero-2" id="website">
+        <!--text-&-icon-->
+        <div class="web-row">
+            <div class="box">
+                <h2>Website</h2>
+            </div>
+            <div class="logo-col">
+                <img src="img/project/logo/1.png">
+            </div>
+            <div class="logo-col">
+                <img src="img/project/logo/2.png">
+            </div>
+            <div class="logo-col">
+                <img src="img/project/logo/3.png">
+            </div>
+            <!--website-info-->
+        </div>
+    </section>
+    <!--3d-model-->
+    <section class="hero-3" id="3dmodel">
+        <!--text-&-icon-->
+        <div class="web-row">
+            <div class="box">
+                <h2>3D Model</h2>
+            </div>
+            <div class="logo-col">
+                <img src="img/project/logo/4.png">
+            </div>
+        </div>
+        <!--3d-model-info-->
+    </section>
+    <!--Game-->
+    <section class="hero-2" id="game">
+        <!--text-&-icon-->
+        <div class="web-row">
+            <div class="box">
+                <h2>Game</h2>
+            </div>
+            <div class="logo-col">
+                <img src="img/project/logo/6.png">
+            </div>
+            <div class="logo-col">
+                <img src="img/project/logo/7.png" width="48" height="48">
+            </div>
+        </div>
+        <!--game-info-->
+    </section>
+    <!--Other-->
+    <section class="hero-3" id="other">
+        <!--text-&-icon-->
+        <div class="web-row">
+            <div class="box">
+                <h2>Other</h2>
+            </div>
+            <div class="logo-col">
+                <img src="img/project/logo/5.png">
+            </div>
+            <div class="logo-col">
+                <img src="img/project/logo/8.png">
+            </div>
+        </div>
+        <!--other-info-->
+    </section>
+    <!--Footer-->
+    <div class="footer">
+        <h3>Made by AxoGM</h3>
+    </div>
+    <script>
+        // dark mode
+        var icon = document.getElementById("icon");
+        icon.onclick = function() {
+            document.body.classList.toggle("dark-theme");
+            if (document.body.classList.contains("dark-theme")) {
+                icon.src = "img/sun.png";
+            } else {
+                icon.src = "img/moon.png";
+            }
+        }
+    </script>
+</body>
+
+</html>
