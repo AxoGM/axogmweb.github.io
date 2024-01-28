@@ -100,8 +100,9 @@ h1 {
 }
 
 .box {
-    display: block;
+    display: flex;
     padding: 3%;
+    justify-content: center;
 }
 
 .logo {
@@ -167,14 +168,15 @@ h3 {
     }
     /* Media social */
     .box {
-        display: flex;
         padding: 0;
+        height: 15%;
     }
     .hero-2 {
-        height: 76vh;
+        height: 100vh;
+        padding: 5%;
     }
     .row {
         margin: 5%;
-        padding-top: 15%;
+        padding-top: 10%;
     }
 }
