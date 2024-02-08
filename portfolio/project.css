@@ -160,13 +160,13 @@ h2 {
 
 /* website info */
 
-.web-row-info {
+.row-info {
     display: block;
     justify-content: space-between;
     padding: 2%;
 }
 
-.web-col {
+.col {
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -174,13 +174,13 @@ h2 {
     overflow: hidden;
 }
 
-.web-col img {
+.col img {
     width: 100%;
     border-radius: 10px;
     display: block;
 }
 
-.web-col a {
+.col a {
     width: 100%;
     display: block;
 }
@@ -254,7 +254,7 @@ h3 {
         padding-top: 2%;
     }
     /* Website info */
-    .web-row-info {
+    .row-info {
         display: flex;
         justify-content: space-between;
         padding: 2%;
