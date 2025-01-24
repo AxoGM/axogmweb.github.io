@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: url("background.png") no-repeat center center fixed;
+    background: url("background.jpg") no-repeat center center fixed;
     background-size: cover;
     color: white;
 }
@@ -61,6 +61,12 @@ body {
     color: lightblue;
     text-decoration: none;
     margin: 0 10px;
+}
+.footer-1 {
+    margin: 0;
+    padding: 0.23%;
+    font-size: 11px;
+    height: 4vh;
 }
 @media (max-width: 600px) {
     .nav a {
